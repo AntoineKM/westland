@@ -1,3 +1,10 @@
 .env
 .env.local
 docker*.bat
+
+# serverdata/serverfiles
+serverdata/serverfiles/*
+!serverdata/serverfiles/resources/
+!serverdata/serverfiles/txData/
+serverdata/serverfiles/txData/*/*
+!serverdata/serverfiles/txData/*/config.json
