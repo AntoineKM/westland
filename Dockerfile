@@ -1,7 +1,5 @@
 FROM ich777/fivemserver
 
-ENV GAME_CONFIG="server.cfg"
-
 EXPOSE 40120
 EXPOSE 30110
 EXPOSE 30120/udp
